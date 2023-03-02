@@ -502,7 +502,7 @@ class Wheat(pygame.sprite.Sprite):
 
     def harvest(self):
         global cur_x, cur_y, inventory
-        inventory['Wheat_Ripe'] += 1
+        inventory['Wheat_Ripe'] += randint(1, 2)
         if inventory_opened:
             set_inventory_visible()
         coords_of_beds.append([cur_x, cur_y])
