@@ -1,0 +1,6 @@
+pygame
+os
+ast
+threading(Timer)
+playsound==1.2.2
+random(randint)
